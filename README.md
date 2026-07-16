@@ -34,9 +34,3 @@ npm install
 npm run dev
 ```
 *Dashboard available at `http://localhost:5173`*
-
-##  Deployment
-This project is configured to easily deploy to free hosting platforms:
-- **Frontend:** Recommended on [Vercel](https://vercel.com) (configure `VITE_API_URL` to point to the backend).
-- **Backend:** Recommended on [Render](https://render.com) (using the provided `requirements.txt` and `uvicorn` start command).
-- **Database:** For persistent storage in production, swap the local SQLite URL in `database.py` with a free PostgreSQL URI from [Supabase](https://supabase.com).
